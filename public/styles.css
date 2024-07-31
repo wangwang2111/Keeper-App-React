@@ -9,6 +9,7 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/cutcube.png");
 }
 
 header {
@@ -60,11 +61,16 @@ footer p {
   float: right;
   margin-right: 10px;
   color: #f5ba13;
+  background: white;
   border: none;
   width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
+}
+
+.note button:hover {
+  color: #7d5d03;
 }
 
 form {
@@ -86,7 +92,8 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
-form button {
+
+.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
@@ -99,4 +106,8 @@ form button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+.create-note button:hover {
+  background: #7d5d03;
 }
